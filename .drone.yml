@@ -1,4 +1,2 @@
-build:
-	image: node:4-onbuild
-	script: echo hello world
-	
+image: node:4-onbuild
+script: echo hello world
