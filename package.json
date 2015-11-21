@@ -1,0 +1,22 @@
+{
+  "name": "hubble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/limajs/hubble.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limajs/hubble/issues"
+  },
+  "homepage": "https://github.com/limajs/hubble",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
