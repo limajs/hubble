@@ -3,3 +3,11 @@ build:
   commands:
     - npm install
     - npm test
+
+publish:
+  docker:
+    username: kevinbacon
+    password: pa55word
+    repo: foo/bar
+    tag: latest
+    file: Dockerfile
