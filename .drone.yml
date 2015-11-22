@@ -12,3 +12,5 @@ publish:
     repo: simoncrabtree/hubble
     tag: latest
     file: Dockerfile
+    environment:
+      - DOCKER_LAUNCH_DEBUG=true
