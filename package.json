@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/limajs/hubble",
   "devDependencies": {
-    "tape": "^4.2.2"
+    "tape": "4.2.2"
+  },
+  "dependencies": {
+    "hapi": "10.5.0"
   }
 }
