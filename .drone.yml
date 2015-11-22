@@ -6,9 +6,9 @@ build:
 
 publish:
   docker:
-    username: kevinbacon
-    password: pa55word
-    email: kevin.bacon@mail.com
-    repo: foo/bar
+    username: simoncrabtree
+    password: $$DOCKER_PASSWORD
+    email: simon@crabsticks.net
+    repo: simoncrabtree/hubble
     tag: latest
     file: Dockerfile
