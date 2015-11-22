@@ -8,6 +8,7 @@ publish:
   docker:
     username: kevinbacon
     password: pa55word
+    email: kevin.bacon@mail.com
     repo: foo/bar
     tag: latest
     file: Dockerfile
