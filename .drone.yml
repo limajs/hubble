@@ -7,7 +7,7 @@ build:
 deploy:
   rsync:
     user: lfmadmin
-    host: lfmtest-hub-metrics
+    host: 10.96.0.5
     port: 22
     source: .
     target: ~/deployments/hubble
