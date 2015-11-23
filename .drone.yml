@@ -9,7 +9,7 @@ deploy:
     user: lfmadmin
     host: lfmtest-hub-metrics
     port: 22
-    source: copy/files/from
-    target: send/files/to
+    source: .
+    target: ~/deployments/hubble
     delete: false
     recursive: true
