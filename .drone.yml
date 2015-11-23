@@ -4,3 +4,12 @@ build:
     - npm install
     - npm test
 
+deploy:
+  rsync:
+    user: root
+    host: lfmtest-hub-metrics
+    port: 22
+    source: copy/files/from
+    target: send/files/to
+    delete: false
+    recursive: true
