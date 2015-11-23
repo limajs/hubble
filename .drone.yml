@@ -6,7 +6,7 @@ build:
 
 deploy:
   rsync:
-    user: root
+    user: lfmadmin
     host: lfmtest-hub-metrics
     port: 22
     source: copy/files/from
