@@ -4,13 +4,3 @@ build:
     - npm install
     - npm test
 
-publish:
-  docker:
-    username: simoncrabtree
-    password: $$DOCKER_PASSWORD
-    email: simon@crabsticks.net
-    repo: simoncrabtree/hubble
-    tag: latest
-    file: Dockerfile
-    environment:
-      - DOCKER_LAUNCH_DEBUG=true
