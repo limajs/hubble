@@ -7,7 +7,6 @@ var getHelloWorld = function (request, reply) {
 };
 
 server.connection({ 
-  host: 'localhost', 
   port: 8002 
 });
 
