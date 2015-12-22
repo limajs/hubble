@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/limajs/hubble",
   "devDependencies": {
+    "eslint-plugin-react": "^3.12.0",
     "tape": "4.2.2"
   },
   "dependencies": {

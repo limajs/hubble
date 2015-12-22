@@ -1,5 +1,4 @@
 var Hapi = require('hapi');
-
 var server = new Hapi.Server();
 
 var getHelloWorld = function (request, reply) {
@@ -23,3 +22,6 @@ server.start(function(err){
   }
   console.log('Server running at:', server.info.uri);
 });
+
+
+
